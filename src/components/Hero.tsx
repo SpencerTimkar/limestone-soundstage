@@ -37,7 +37,7 @@ const Hero = () => {
         </div>
 
         {/* Simple Call to Action */}
-        <div className="flex flex-wrap gap-4 justify-center animate-fade-in">
+        <div className="flex flex-wrap gap-4 justify-center animate-fade-in mt-12">
           <Button 
             variant="default" 
             size="lg"
