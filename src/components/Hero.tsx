@@ -20,20 +20,13 @@ const Hero = () => {
       </nav>
 
       <div className="container mx-auto px-6 text-center z-10">
-        {/* Band Photos */}
+        {/* Band Photo */}
         <div className="mb-12 animate-fade-in">
-          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            <img 
-              src="/lovable-uploads/b1d6bb1a-9469-4769-8d08-964e271695e2.png" 
-              alt="Limestone Band - Fun and energetic band from Lawrence, Kansas"
-              className="w-full rounded-lg shadow-glow hover:shadow-soft transition-smooth"
-            />
-            <img 
-              src="/lovable-uploads/abf9aec8-d4b1-4606-827f-1375086025f2.png" 
-              alt="Limestone Band live performance"
-              className="w-full rounded-lg shadow-soft hover:shadow-glow transition-smooth"
-            />
-          </div>
+          <img 
+            src="/lovable-uploads/df46aa76-dfcb-435d-8d54-0b15b0deb4d2.png" 
+            alt="Limestone Band - The Coolest Funniest Hottest Band in Lawrence, Kansas"
+            className="mx-auto max-w-4xl w-full rounded-lg shadow-glow hover:shadow-soft transition-smooth"
+          />
         </div>
 
         {/* Band Name - Large and Simple */}
