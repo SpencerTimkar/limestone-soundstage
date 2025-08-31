@@ -8,95 +8,89 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Limestone Brand Colors - Rock & Roll vibes */
-    --background: 0 0% 2%;
-    --foreground: 0 0% 98%;
+    /* Clean, minimal palette inspired by Flipturn */
+    --background: 45 15% 95%;
+    --foreground: 30 15% 15%;
 
-    --card: 0 0% 4%;
-    --card-foreground: 0 0% 98%;
+    --card: 45 15% 98%;
+    --card-foreground: 30 15% 15%;
 
-    --popover: 0 0% 4%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 45 15% 98%;
+    --popover-foreground: 30 15% 15%;
 
-    /* Primary: Electric Blue */
-    --primary: 220 91% 55%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 220 91% 70%;
+    /* Primary: Muted Blue */
+    --primary: 210 20% 30%;
+    --primary-foreground: 45 15% 95%;
 
-    /* Secondary: Rock Red */
-    --secondary: 0 85% 60%;
-    --secondary-foreground: 0 0% 100%;
-    --secondary-glow: 0 85% 75%;
+    /* Secondary: Warm Earth Tone */
+    --secondary: 25 30% 85%;
+    --secondary-foreground: 30 15% 25%;
 
-    --muted: 0 0% 10%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 45 10% 88%;
+    --muted-foreground: 30 10% 45%;
 
-    --accent: 270 75% 65%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 15 35% 75%;
+    --accent-foreground: 30 15% 25%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive: 0 65% 55%;
+    --destructive-foreground: 45 15% 95%;
 
-    --border: 0 0% 15%;
-    --input: 0 0% 10%;
-    --ring: 220 91% 55%;
+    --border: 45 10% 85%;
+    --input: 45 10% 90%;
+    --ring: 210 20% 30%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
-    /* Gradients for rock vibes */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-secondary: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--secondary-glow)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--background)), hsl(0 0% 8%));
-    --gradient-stripe: linear-gradient(45deg, hsl(var(--primary)) 25%, hsl(var(--secondary)) 25%, hsl(var(--secondary)) 50%, hsl(var(--primary)) 50%, hsl(var(--primary)) 75%, hsl(var(--secondary)) 75%);
+    /* Subtle gradients for minimal design */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--background)), hsl(45 15% 92%));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--secondary)));
+    
+    /* Minimal shadows */
+    --shadow-subtle: 0 2px 8px hsl(30 15% 15% / 0.1);
+    --shadow-soft: 0 4px 16px hsl(30 15% 15% / 0.15);
 
-    /* Shadows and effects */
-    --shadow-glow: 0 0 30px hsl(var(--primary) / 0.3);
-    --shadow-red-glow: 0 0 30px hsl(var(--secondary) / 0.3);
-    --shadow-elegant: 0 10px 30px -10px hsl(0 0% 0% / 0.5);
+    /* Clean transitions */
+    --transition-smooth: all 0.2s ease;
 
-    /* Animations */
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-
-    --sidebar-background: 0 0% 4%;
-    --sidebar-foreground: 0 0% 90%;
-    --sidebar-primary: 220 91% 55%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 0 0% 8%;
-    --sidebar-accent-foreground: 0 0% 90%;
-    --sidebar-border: 0 0% 15%;
-    --sidebar-ring: 220 91% 55%;
+    --sidebar-background: 45 15% 96%;
+    --sidebar-foreground: 30 15% 20%;
+    --sidebar-primary: 210 20% 30%;
+    --sidebar-primary-foreground: 45 15% 95%;
+    --sidebar-accent: 45 10% 90%;
+    --sidebar-accent-foreground: 30 15% 20%;
+    --sidebar-border: 45 10% 85%;
+    --sidebar-ring: 210 20% 30%;
   }
 
   .dark {
-    /* Same colors - this is a dark theme by default */
-    --background: 0 0% 2%;
-    --foreground: 0 0% 98%;
-    --card: 0 0% 4%;
-    --card-foreground: 0 0% 98%;
-    --popover: 0 0% 4%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 220 91% 55%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 0 85% 60%;
-    --secondary-foreground: 0 0% 100%;
-    --muted: 0 0% 10%;
-    --muted-foreground: 0 0% 65%;
-    --accent: 270 75% 65%;
-    --accent-foreground: 0 0% 100%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
-    --border: 0 0% 15%;
-    --input: 0 0% 10%;
-    --ring: 220 91% 55%;
-    --sidebar-background: 0 0% 4%;
-    --sidebar-foreground: 0 0% 90%;
-    --sidebar-primary: 220 91% 55%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 0 0% 8%;
-    --sidebar-accent-foreground: 0 0% 90%;
-    --sidebar-border: 0 0% 15%;
-    --sidebar-ring: 220 91% 55%;
+    /* Minimal dark theme */
+    --background: 30 15% 8%;
+    --foreground: 45 15% 95%;
+    --card: 30 15% 10%;
+    --card-foreground: 45 15% 95%;
+    --popover: 30 15% 10%;
+    --popover-foreground: 45 15% 95%;
+    --primary: 210 30% 60%;
+    --primary-foreground: 30 15% 8%;
+    --secondary: 25 20% 20%;
+    --secondary-foreground: 45 15% 95%;
+    --muted: 30 10% 15%;
+    --muted-foreground: 45 10% 65%;
+    --accent: 15 25% 25%;
+    --accent-foreground: 45 15% 95%;
+    --destructive: 0 65% 55%;
+    --destructive-foreground: 45 15% 95%;
+    --border: 30 10% 20%;
+    --input: 30 10% 15%;
+    --ring: 210 30% 60%;
+    --sidebar-background: 30 15% 10%;
+    --sidebar-foreground: 45 15% 90%;
+    --sidebar-primary: 210 30% 60%;
+    --sidebar-primary-foreground: 30 15% 8%;
+    --sidebar-accent: 30 10% 15%;
+    --sidebar-accent-foreground: 45 15% 90%;
+    --sidebar-border: 30 10% 20%;
+    --sidebar-ring: 210 30% 60%;
   }
 }
 
@@ -110,73 +104,53 @@ All colors MUST be HSL.
     overflow-x: hidden;
   }
 
-  /* Music-themed animations */
-  @keyframes pulse-glow {
-    0%, 100% {
-      box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+  /* Minimal animations only */
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
     }
-    50% {
-      box-shadow: 0 0 40px hsl(var(--primary) / 0.6);
-    }
-  }
-
-  @keyframes stripe-slide {
-    0% {
-      background-position: 0 0;
-    }
-    100% {
-      background-position: 40px 0;
+    to {
+      opacity: 1;
+      transform: translateY(0);
     }
   }
 
-  @keyframes float {
+  @keyframes subtle-float {
     0%, 100% {
       transform: translateY(0px);
     }
     50% {
-      transform: translateY(-10px);
+      transform: translateY(-5px);
     }
   }
 
-  /* Custom utility classes */
-  .animate-pulse-glow {
-    animation: pulse-glow 2s ease-in-out infinite;
+  /* Clean utility classes */
+  .animate-fade-in {
+    animation: fade-in 0.6s ease-out;
   }
 
-  .animate-stripe-slide {
-    animation: stripe-slide 2s linear infinite;
-  }
-
-  .animate-float {
-    animation: float 3s ease-in-out infinite;
+  .animate-subtle-float {
+    animation: subtle-float 4s ease-in-out infinite;
   }
 
   .bg-gradient-hero {
     background: var(--gradient-hero);
   }
 
-  .bg-gradient-primary {
-    background: var(--gradient-primary);
+  .bg-gradient-accent {
+    background: var(--gradient-accent);
   }
 
-  .bg-gradient-secondary {
-    background: var(--gradient-secondary);
+  .shadow-subtle {
+    box-shadow: var(--shadow-subtle);
   }
 
-  .bg-gradient-stripe {
-    background: var(--gradient-stripe);
-    background-size: 40px 40px;
-  }
-
-  .text-shadow-glow {
-    text-shadow: 0 0 20px hsl(var(--primary) / 0.5);
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
   }
 
   .transition-smooth {
     transition: var(--transition-smooth);
-  }
-
-  .transition-bounce {
-    transition: var(--transition-bounce);
   }
 }
