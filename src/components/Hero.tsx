@@ -20,13 +20,20 @@ const Hero = () => {
       </nav>
 
       <div className="container mx-auto px-6 text-center z-10">
-        {/* Band Photo */}
+        {/* Band Photos */}
         <div className="mb-12 animate-fade-in">
-          <img 
-            src="/lovable-uploads/df46aa76-dfcb-435d-8d54-0b15b0deb4d2.png" 
-            alt="Limestone Band - The Coolest Funniest Hottest Band in Lawrence, Kansas"
-            className="mx-auto max-w-4xl w-full rounded-lg shadow-soft"
-          />
+          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <img 
+              src="/lovable-uploads/b1d6bb1a-9469-4769-8d08-964e271695e2.png" 
+              alt="Limestone Band - Fun and energetic band from Lawrence, Kansas"
+              className="w-full rounded-lg shadow-glow hover:shadow-soft transition-smooth"
+            />
+            <img 
+              src="/lovable-uploads/abf9aec8-d4b1-4606-827f-1375086025f2.png" 
+              alt="Limestone Band live performance"
+              className="w-full rounded-lg shadow-soft hover:shadow-glow transition-smooth"
+            />
+          </div>
         </div>
 
         {/* Band Name - Large and Simple */}
@@ -39,10 +46,10 @@ const Hero = () => {
         {/* Simple Call to Action */}
         <div className="flex flex-wrap gap-4 justify-center animate-fade-in">
           <Button 
-            variant="outline" 
+            variant="default" 
             size="lg"
             asChild
-            className="border-2 bg-accent/10 hover:bg-accent/20"
+            className="bg-gradient-warm hover:shadow-glow transition-smooth"
           >
             <a 
               href="https://open.spotify.com/artist/60Ms8qhGHWJAeZgbOA6Dyq"
@@ -58,7 +65,7 @@ const Hero = () => {
             variant="outline" 
             size="lg"
             asChild
-            className="border-2 bg-secondary/20 hover:bg-secondary/30"
+            className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
           >
             <a 
               href="https://limestoneband.printify.me/"
@@ -79,7 +86,7 @@ const Hero = () => {
             href="https://www.instagram.com/limestone.music/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-foreground/60 hover:text-foreground transition-smooth"
+            className="text-foreground/60 hover:text-accent transition-smooth"
           >
             <Instagram className="w-5 h-5" />
           </a>
@@ -87,7 +94,7 @@ const Hero = () => {
             href="https://www.tiktok.com/@limestone.music"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-foreground/60 hover:text-foreground transition-smooth"
+            className="text-foreground/60 hover:text-primary transition-smooth"
           >
             <Music className="w-5 h-5" />
           </a>
@@ -95,7 +102,7 @@ const Hero = () => {
             href="https://linktr.ee/limestonemusic"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-foreground/60 hover:text-foreground transition-smooth"
+            className="text-foreground/60 hover:text-secondary transition-smooth"
           >
             <ExternalLink className="w-5 h-5" />
           </a>

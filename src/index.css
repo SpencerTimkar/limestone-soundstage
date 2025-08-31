@@ -8,29 +8,30 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Clean, minimal palette inspired by Flipturn */
-    --background: 45 15% 95%;
-    --foreground: 30 15% 15%;
+    /* Vibrant palette with warm energy */
+    --background: 45 20% 96%;
+    --foreground: 25 25% 12%;
 
-    --card: 45 15% 98%;
-    --card-foreground: 30 15% 15%;
+    --card: 45 25% 98%;
+    --card-foreground: 25 25% 12%;
 
-    --popover: 45 15% 98%;
-    --popover-foreground: 30 15% 15%;
+    --popover: 45 25% 98%;
+    --popover-foreground: 25 25% 12%;
 
-    /* Primary: Muted Blue */
-    --primary: 210 20% 30%;
-    --primary-foreground: 45 15% 95%;
+    /* Primary: Warm Orange */
+    --primary: 25 85% 55%;
+    --primary-foreground: 45 20% 96%;
 
-    /* Secondary: Warm Earth Tone */
-    --secondary: 25 30% 85%;
-    --secondary-foreground: 30 15% 25%;
+    /* Secondary: Electric Blue */
+    --secondary: 215 75% 60%;
+    --secondary-foreground: 45 20% 96%;
 
-    --muted: 45 10% 88%;
-    --muted-foreground: 30 10% 45%;
+    --muted: 45 15% 85%;
+    --muted-foreground: 25 15% 45%;
 
-    --accent: 15 35% 75%;
-    --accent-foreground: 30 15% 25%;
+    /* Accent: Vibrant Coral */
+    --accent: 15 75% 65%;
+    --accent-foreground: 45 20% 96%;
 
     --destructive: 0 65% 55%;
     --destructive-foreground: 45 15% 95%;
@@ -41,13 +42,15 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
 
-    /* Subtle gradients for minimal design */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--background)), hsl(45 15% 92%));
-    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--secondary)));
+    /* Vibrant gradients with energy */
+    --gradient-hero: linear-gradient(135deg, hsl(25 85% 55% / 0.1), hsl(215 75% 60% / 0.1), hsl(var(--background)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+    --gradient-warm: linear-gradient(135deg, hsl(25 85% 55%), hsl(15 75% 65%));
     
-    /* Minimal shadows */
-    --shadow-subtle: 0 2px 8px hsl(30 15% 15% / 0.1);
-    --shadow-soft: 0 4px 16px hsl(30 15% 15% / 0.15);
+    /* Colorful shadows */
+    --shadow-subtle: 0 2px 8px hsl(25 85% 55% / 0.15);
+    --shadow-soft: 0 4px 16px hsl(25 85% 55% / 0.25);
+    --shadow-glow: 0 0 30px hsl(var(--primary) / 0.3);
 
     /* Clean transitions */
     --transition-smooth: all 0.2s ease;
@@ -140,6 +143,14 @@ All colors MUST be HSL.
 
   .bg-gradient-accent {
     background: var(--gradient-accent);
+  }
+
+  .bg-gradient-warm {
+    background: var(--gradient-warm);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
   }
 
   .shadow-subtle {
