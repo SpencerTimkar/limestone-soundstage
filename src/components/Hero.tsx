@@ -3,7 +3,7 @@ import { Music, Instagram, ExternalLink } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero">
+    <section className="relative flex flex-col justify-between bg-gradient-hero py-16">
       {/* Navigation */}
       <nav className="absolute top-0 right-0 p-6 z-20">
         <div className="flex gap-6 text-sm uppercase tracking-wider font-medium">
@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
       </nav>
 
-      <div className="container mx-auto px-6 text-center z-10">
+      <div className="container mx-auto px-6 text-center z-10 items-center">
         {/* Band Photo */}
         <div className="mb-12 animate-fade-in">
           <img 
@@ -30,14 +30,14 @@ const Hero = () => {
         </div>
 
         {/* Band Name - Large and Simple */}
-        <div className="mb-8 animate-fade-in">
+        <div className="mb-4 animate-fade-in">
           <h1 className="text-7xl md:text-9xl font-light tracking-wider mb-6 text-foreground">
             Limestone
           </h1>
         </div>
 
         {/* Simple Call to Action */}
-        <div className="flex flex-wrap gap-4 justify-center animate-fade-in mt-12">
+        <div className="flex flex-wrap gap-4 justify-center animate-fade-in mt-6">
           <Button 
             variant="default" 
             size="lg"
