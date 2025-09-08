@@ -8,30 +8,30 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Vibrant palette with warm energy */
-    --background: 45 20% 96%;
-    --foreground: 25 25% 12%;
+    /* Vibrant palette with warm energy - Enhanced contrast */
+    --background: 45 25% 97%;
+    --foreground: 25 30% 8%;
 
-    --card: 45 25% 98%;
-    --card-foreground: 25 25% 12%;
+    --card: 45 30% 99%;
+    --card-foreground: 25 30% 8%;
 
-    --popover: 45 25% 98%;
-    --popover-foreground: 25 25% 12%;
+    --popover: 45 30% 99%;
+    --popover-foreground: 25 30% 8%;
 
-    /* Primary: Warm Orange */
-    --primary: 25 85% 55%;
-    --primary-foreground: 45 20% 96%;
+    /* Primary: Warm Orange - Enhanced */
+    --primary: 25 90% 58%;
+    --primary-foreground: 45 25% 97%;
 
-    /* Secondary: Electric Blue */
-    --secondary: 215 75% 60%;
-    --secondary-foreground: 45 20% 96%;
+    /* Secondary: Electric Blue - Enhanced */
+    --secondary: 215 80% 62%;
+    --secondary-foreground: 45 25% 97%;
 
-    --muted: 45 15% 85%;
-    --muted-foreground: 25 15% 45%;
+    --muted: 45 20% 88%;
+    --muted-foreground: 25 20% 40%;
 
-    /* Accent: Vibrant Coral */
-    --accent: 15 75% 65%;
-    --accent-foreground: 45 20% 96%;
+    /* Accent: Vibrant Coral - Enhanced */
+    --accent: 15 80% 68%;
+    --accent-foreground: 45 25% 97%;
 
     --destructive: 0 65% 55%;
     --destructive-foreground: 45 15% 95%;
@@ -52,8 +52,8 @@ All colors MUST be HSL.
     --shadow-soft: 0 4px 16px hsl(25 85% 55% / 0.25);
     --shadow-glow: 0 0 30px hsl(var(--primary) / 0.3);
 
-    /* Clean transitions */
-    --transition-smooth: all 0.2s ease;
+    /* Enhanced transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 45 15% 96%;
     --sidebar-foreground: 30 15% 20%;
@@ -66,21 +66,21 @@ All colors MUST be HSL.
   }
 
   .dark {
-    /* Minimal dark theme */
-    --background: 30 15% 8%;
-    --foreground: 45 15% 95%;
-    --card: 30 15% 10%;
-    --card-foreground: 45 15% 95%;
-    --popover: 30 15% 10%;
-    --popover-foreground: 45 15% 95%;
-    --primary: 210 30% 60%;
-    --primary-foreground: 30 15% 8%;
-    --secondary: 25 20% 20%;
-    --secondary-foreground: 45 15% 95%;
-    --muted: 30 10% 15%;
-    --muted-foreground: 45 10% 65%;
-    --accent: 15 25% 25%;
-    --accent-foreground: 45 15% 95%;
+    /* Enhanced dark theme with better contrast */
+    --background: 30 20% 6%;
+    --foreground: 45 20% 98%;
+    --card: 30 20% 9%;
+    --card-foreground: 45 20% 98%;
+    --popover: 30 20% 9%;
+    --popover-foreground: 45 20% 98%;
+    --primary: 210 35% 65%;
+    --primary-foreground: 30 20% 6%;
+    --secondary: 25 25% 22%;
+    --secondary-foreground: 45 20% 98%;
+    --muted: 30 15% 12%;
+    --muted-foreground: 45 15% 70%;
+    --accent: 15 30% 28%;
+    --accent-foreground: 45 20% 98%;
     --destructive: 0 65% 55%;
     --destructive-foreground: 45 15% 95%;
     --border: 30 10% 20%;

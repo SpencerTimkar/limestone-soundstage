@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Instagram, Music, ExternalLink, MapPin } from "lucide-react";
+import { Instagram, Music, ExternalLink, MapPin, Mail } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -14,25 +14,39 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 mb-16">
+        <div className="grid md:grid-cols-3 gap-8 mb-16">
           {/* Location */}
           <div className="text-center animate-fade-in">
-            <div className="bg-background rounded-lg p-10 shadow-subtle">
-              <div className="flex justify-center mb-6">
-                <MapPin className="w-8 h-8 text-primary" />
+            <div className="bg-background rounded-lg p-8 shadow-subtle">
+              <div className="flex justify-center mb-4">
+                <MapPin className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-xl font-medium mb-4 tracking-wide">Based in</h3>
-              <p className="text-2xl font-light text-foreground mb-2">Lawrence, Kansas</p>
-              <p className="text-muted-foreground">
+              <h3 className="text-lg font-medium mb-3 tracking-wide">Based in</h3>
+              <p className="text-xl font-light text-foreground mb-2">Lawrence, Kansas</p>
+              <p className="text-muted-foreground text-sm">
                 Available for shows, events, and good times
+              </p>
+            </div>
+          </div>
+
+          {/* Email */}
+          <div className="text-center animate-fade-in">
+            <div className="bg-background rounded-lg p-8 shadow-subtle">
+              <div className="flex justify-center mb-4">
+                <Mail className="w-6 h-6 text-primary" />
+              </div>
+              <h3 className="text-lg font-medium mb-3 tracking-wide">Email</h3>
+              <p className="text-lg text-foreground mb-2">Official.limestone.band@gmail.com</p>
+              <p className="text-muted-foreground text-sm">
+                For bookings and inquiries
               </p>
             </div>
           </div>
 
           {/* Connect */}
           <div className="text-center animate-fade-in space-y-4">
-            <div className="bg-background rounded-lg p-10 shadow-subtle">
-              <h3 className="text-xl font-medium mb-6 tracking-wide">Connect</h3>
+            <div className="bg-background rounded-lg p-8 shadow-subtle">
+              <h3 className="text-lg font-medium mb-4 tracking-wide">Connect</h3>
               <div className="space-y-3">
                 <Button 
                   variant="outline" 
