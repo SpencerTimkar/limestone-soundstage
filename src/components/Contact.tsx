@@ -36,7 +36,9 @@ const Contact = () => {
                 <Mail className="w-6 h-6 text-primary" />
               </div>
               <h3 className="text-lg font-medium mb-3 tracking-wide">Email</h3>
-              <p className="text-lg text-foreground mb-2">Official.limestone.band@gmail.com</p>
+              <p className="text-lg text-foreground mb-2 break-words whitespace-normal">
+                Official.limestone.band@gmail.com
+              </p>
               <p className="text-muted-foreground text-sm">
                 For bookings and inquiries
               </p>
