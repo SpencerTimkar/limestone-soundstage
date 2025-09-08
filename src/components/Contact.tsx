@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Instagram, Music, ExternalLink, MapPin, Mail } from "lucide-react";
+import { Instagram, Music, ExternalLink, MapPin, Mail, Link } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -48,6 +48,9 @@ const Contact = () => {
           {/* Connect */}
           <div className="text-center animate-fade-in space-y-4">
             <div className="bg-background rounded-lg p-8 shadow-subtle">
+              <div className="flex justify-center mb-4">
+                <Link className="w-6 h-6 text-orange-500" />
+              </div>
               <h3 className="text-lg font-medium mb-4 tracking-wide">Connect</h3>
               <div className="space-y-3">
                 <Button 
