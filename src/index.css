@@ -8,44 +8,44 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Vibrant palette with warm energy - Enhanced contrast */
-    --background: 45 25% 97%;
-    --foreground: 25 30% 8%;
+    /* Consistent color palette with enhanced contrast */
+    --background: 0 0% 100%;
+    --foreground: 240 15% 2%;
 
-    --card: 45 30% 99%;
-    --card-foreground: 25 30% 8%;
+    --card: 240 8% 96%;
+    --card-foreground: 240 15% 2%;
 
-    --popover: 45 30% 99%;
-    --popover-foreground: 25 30% 8%;
+    --popover: 240 8% 96%;
+    --popover-foreground: 240 15% 2%;
 
     /* Primary: Warm Orange - Enhanced */
     --primary: 25 90% 58%;
-    --primary-foreground: 45 25% 97%;
+    --primary-foreground: 0 0% 100%;
 
     /* Secondary: Electric Blue - Enhanced */
     --secondary: 215 80% 62%;
-    --secondary-foreground: 45 25% 97%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 45 20% 88%;
-    --muted-foreground: 25 20% 40%;
+    --muted: 240 8% 92%;
+    --muted-foreground: 240 8% 35%;
 
     /* Accent: Vibrant Coral - Enhanced */
     --accent: 15 80% 68%;
-    --accent-foreground: 45 25% 97%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 65% 55%;
     --destructive-foreground: 45 15% 95%;
 
-    --border: 45 10% 85%;
-    --input: 45 10% 90%;
-    --ring: 210 20% 30%;
+    --border: 240 8% 88%;
+    --input: 240 8% 92%;
+    --ring: 240 15% 15%;
 
     --radius: 0.5rem;
 
-    /* Vibrant gradients with energy */
-    --gradient-hero: linear-gradient(135deg, hsl(25 85% 55% / 0.1), hsl(215 75% 60% / 0.1), hsl(var(--background)));
+    /* Consistent gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(25 90% 58% / 0.08), hsl(215 80% 62% / 0.08), hsl(0 0% 100%));
     --gradient-accent: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
-    --gradient-warm: linear-gradient(135deg, hsl(25 85% 55%), hsl(15 75% 65%));
+    --gradient-warm: linear-gradient(135deg, hsl(25 90% 58%), hsl(15 80% 68%));
     
     /* Colorful shadows */
     --shadow-subtle: 0 2px 8px hsl(25 85% 55% / 0.15);
@@ -66,21 +66,21 @@ All colors MUST be HSL.
   }
 
   .dark {
-    /* Enhanced dark theme with better contrast */
-    --background: 30 20% 6%;
-    --foreground: 45 20% 98%;
-    --card: 30 20% 9%;
-    --card-foreground: 45 20% 98%;
-    --popover: 30 20% 9%;
-    --popover-foreground: 45 20% 98%;
+    /* Consistent dark theme with enhanced contrast */
+    --background: 240 15% 4%;
+    --foreground: 0 0% 98%;
+    --card: 240 15% 8%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 15% 8%;
+    --popover-foreground: 0 0% 98%;
     --primary: 210 35% 65%;
-    --primary-foreground: 30 20% 6%;
-    --secondary: 25 25% 22%;
-    --secondary-foreground: 45 20% 98%;
-    --muted: 30 15% 12%;
-    --muted-foreground: 45 15% 70%;
+    --primary-foreground: 240 15% 4%;
+    --secondary: 240 15% 18%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 15% 12%;
+    --muted-foreground: 240 8% 65%;
     --accent: 15 30% 28%;
-    --accent-foreground: 45 20% 98%;
+    --accent-foreground: 0 0% 98%;
     --destructive: 0 65% 55%;
     --destructive-foreground: 45 15% 95%;
     --border: 30 10% 20%;
