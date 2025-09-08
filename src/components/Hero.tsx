@@ -32,7 +32,7 @@ const Hero = () => {
         {/* Band Name - Large and Simple */}
         <div className="mb-8 animate-fade-in">
           <h1 className="text-7xl md:text-9xl font-light tracking-wider mb-6 text-foreground">
-            limestone
+            Limestone
           </h1>
         </div>
 
@@ -73,7 +73,7 @@ const Hero = () => {
       </div>
 
       {/* Simple Social Links - Bottom */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">
         <div className="flex gap-6">
           <a 
             href="https://www.instagram.com/limestone.music/"

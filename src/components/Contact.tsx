@@ -10,7 +10,7 @@ const Contact = () => {
             Contact
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-            Ready to book the coolest, funniest, hottest band in Lawrence? Let's make some music together.
+            Ready to book the coolest, funniest, hottest band in Lawrence? We've played everything from tiny bar gigs to sorority formals. Whatever the occasion, we are the band for you.
           </p>
         </div>
 
@@ -92,7 +92,7 @@ const Contact = () => {
         {/* Footer */}
         <div className="text-center text-muted-foreground">
           <p className="text-sm tracking-wider">
-            © 2024 Limestone. The coolest, funniest, hottest band in Lawrence freaking Kansas.
+            © 2025 Limestone Band LLC. The coolest, funniest, hottest band in Lawrence freaking Kansas.
           </p>
         </div>
       </div>
