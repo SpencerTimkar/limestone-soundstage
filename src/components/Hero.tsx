@@ -1,9 +1,30 @@
 import { Button } from "@/components/ui/button";
 import { Music, Instagram, ExternalLink } from "lucide-react";
+import { useHalloween } from "@/hooks/useHalloween";
 
 const Hero = () => {
+  const { isHalloweenMode, toggleHalloweenMode } = useHalloween();
+
   return (
     <section className="relative flex flex-col justify-between bg-gradient-hero py-16">
+      {/* Halloween Toggle Button */}
+      <div className="absolute top-6 left-6 z-30">
+        <Button
+          onClick={toggleHalloweenMode}
+          variant={isHalloweenMode ? "default" : "outline"}
+          size="icon"
+          className={`transition-all duration-500 ${
+            isHalloweenMode 
+              ? "bg-gradient-warm shadow-glow animate-eerie-glow" 
+              : "hover:bg-accent"
+          }`}
+        >
+          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 1.74.65 3.33 1.72 4.55C7.45 14.54 8 15.23 8 16c0 2.21 1.79 4 4 4s4-1.79 4-4c0-.77.55-1.46 1.28-2.45C18.35 12.33 19 10.74 19 9c0-3.87-3.13-7-7-7zm-3 16.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h6c.28 0 .5.22.5.5s-.22.5-.5.5H9zm1-1.5v-.5c0-.28.22-.5.5-.5h3c.28 0 .5.22.5.5V17h-4zm-1.5-2c-.83 0-1.5-.67-1.5-1.5S7.67 12 8.5 12s1.5.67 1.5 1.5S9.33 15 8.5 15zm7 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+          </svg>
+        </Button>
+      </div>
+
       {/* Navigation */}
       <nav className="absolute top-0 right-0 p-6 z-20">
         <div className="flex gap-6 text-sm uppercase tracking-wider font-medium">
@@ -31,8 +52,10 @@ const Hero = () => {
 
         {/* Band Name - Large and Simple */}
         <div className="mb-4 animate-fade-in">
-          <h1 className="text-7xl md:text-9xl font-light tracking-wider mb-6 text-foreground">
-            Limestone
+          <h1 className={`text-7xl md:text-9xl font-light tracking-wider mb-6 text-foreground transition-all duration-500 ${
+            isHalloweenMode ? "animate-spooky-float animate-eerie-glow" : ""
+          }`}>
+            {isHalloweenMode ? "Limest👻ne" : "Limestone"}
           </h1>
         </div>
 
