@@ -3,7 +3,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { HalloweenProvider } from "@/hooks/useHalloween";
+import { DarkModeProvider } from "@/hooks/useDarkMode";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
@@ -11,7 +11,7 @@ const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <HalloweenProvider>
+    <DarkModeProvider>
       <TooltipProvider>
         <Toaster />
         <Sonner />
@@ -23,7 +23,7 @@ const App = () => (
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
-    </HalloweenProvider>
+    </DarkModeProvider>
   </QueryClientProvider>
 );
 
