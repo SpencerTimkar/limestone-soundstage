@@ -44,7 +44,7 @@ const Hero = () => {
         {/* Band Photo */}
         <div className="mb-12 animate-fade-in">
           <img 
-            src="/lovable-uploads/df46aa76-dfcb-435d-8d54-0b15b0deb4d2.png" 
+            src="/lovable-uploads/0da7a44e-bfc1-4093-8223-620e8a5ecbc5.png" 
             alt="Limestone Band - The Coolest Funniest Hottest Band in Lawrence, Kansas"
             className="mx-auto max-w-4xl w-full rounded-lg shadow-glow hover:shadow-soft transition-smooth"
           />
