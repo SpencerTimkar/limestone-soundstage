@@ -1,29 +1,27 @@
 import { Button } from "@/components/ui/button";
 import { Music, Instagram, ExternalLink } from "lucide-react";
-import { useDarkMode } from "@/hooks/useDarkMode";
+import { useHalloween } from "@/hooks/useHalloween";
 
 const Hero = () => {
-  const { isDarkMode, toggleDarkMode } = useDarkMode();
+  const { isHalloweenMode, toggleHalloweenMode } = useHalloween();
 
   return (
     <section className="relative flex flex-col justify-between bg-gradient-hero py-16">
-      {/* Dark Mode Toggle Button */}
+      {/* Halloween Toggle Button */}
       <div className="absolute top-6 left-6 z-30">
         <Button
-          onClick={toggleDarkMode}
-          variant={isDarkMode ? "default" : "outline"}
+          onClick={toggleHalloweenMode}
+          variant={isHalloweenMode ? "default" : "outline"}
           size="icon"
-          className="transition-smooth hover:bg-accent"
+          className={`transition-all duration-500 ${
+            isHalloweenMode 
+              ? "bg-gradient-warm shadow-glow animate-eerie-glow" 
+              : "hover:bg-accent"
+          }`}
         >
-          {isDarkMode ? (
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85l1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"/>
-            </svg>
-          ) : (
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M17.293 13.293A8 8 0 0 1 6.707 2.707a8.001 8.001 0 1 0 10.586 10.586z"/>
-            </svg>
-          )}
+          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 1.74.65 3.33 1.72 4.55C7.45 14.54 8 15.23 8 16c0 2.21 1.79 4 4 4s4-1.79 4-4c0-.77.55-1.46 1.28-2.45C18.35 12.33 19 10.74 19 9c0-3.87-3.13-7-7-7zm-3 16.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h6c.28 0 .5.22.5.5s-.22.5-.5.5H9zm1-1.5v-.5c0-.28.22-.5.5-.5h3c.28 0 .5.22.5.5V17h-4zm-1.5-2c-.83 0-1.5-.67-1.5-1.5S7.67 12 8.5 12s1.5.67 1.5 1.5S9.33 15 8.5 15zm7 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+          </svg>
         </Button>
       </div>
 
@@ -54,8 +52,10 @@ const Hero = () => {
 
         {/* Band Name - Large and Simple */}
         <div className="mb-4 animate-fade-in">
-          <h1 className="text-7xl md:text-9xl font-light tracking-wider mb-6 text-foreground transition-smooth">
-            Limestone
+          <h1 className={`text-7xl md:text-9xl font-light tracking-wider mb-6 text-foreground transition-all duration-500 ${
+            isHalloweenMode ? "animate-spooky-float animate-eerie-glow" : ""
+          }`}>
+            {isHalloweenMode ? "Limest👻ne" : "Limestone"}
           </h1>
         </div>
 
