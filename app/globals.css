@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ededed;
+  --accent: #D22B2B;
+  /* Deep red accent */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@keyframes noise {
+  0% {
+    transform: translate(0, 0) skewX(0deg);
+  }
+
+  10% {
+    transform: translate(-22%, -18%) skewX(4deg);
+  }
+
+  20% {
+    transform: translate(-28%, 22%) skewX(-3deg);
+  }
+
+  30% {
+    transform: translate(22%, -28%) skewX(3.5deg);
+  }
+
+  40% {
+    transform: translate(-25%, 32%) skewX(-4deg);
+  }
+
+  50% {
+    transform: translate(-32%, 25%) skewX(4.5deg);
+  }
+
+  60% {
+    transform: translate(32%, -18%) skewX(-3.5deg);
+  }
+
+  70% {
+    transform: translate(-18%, 28%) skewX(3deg);
+  }
+
+  80% {
+    transform: translate(-35%, -22%) skewX(-4.5deg);
+  }
+
+  90% {
+    transform: translate(28%, 22%) skewX(4deg);
+  }
+
+  100% {
+    transform: translate(0, 0) skewX(0deg);
+  }
+}
+
+@keyframes warble {
+
+  0%,
+  100% {
+    filter: hue-rotate(30deg);
+  }
+
+  25% {
+    filter: hue-rotate(-20deg);
+  }
+
+  50% {
+    filter: hue-rotate(30deg);
+  }
+
+  75% {
+    filter: hue-rotate(-20deg);
+  }
+}
+
+.animate-warble {
+  animation: warble 20s ease-in-out infinite;
+}
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
