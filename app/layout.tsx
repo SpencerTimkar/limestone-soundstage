@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   description: "Alternative Rock Band from Lawrence, Kansas.",
   icons: {
-    
+
     icon: "/images/star_cropped.png",
     shortcut: "/images/star_cropped.png",
     apple: "/images/star_cropped.png",
@@ -32,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
