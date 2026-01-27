@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function UpcomingSection() {
     return (
-        <section id="upcoming" className="relative min-h-[150vh] flex flex-col items-center justify-center py-32 md:py-48 px-6 overflow-hidden ">
+        <section id="upcoming" className="relative min-h-[100dvh] md:min-h-[150vh] flex flex-col items-center justify-center py-20 md:py-48 px-6 overflow-hidden ">
             {/* Background Image */}
             <div className="absolute inset-0 z-0" >
                 <Image
@@ -32,7 +32,7 @@ export default function UpcomingSection() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.8 }}
-                    className="text-4xl md:text-6xl font-bold uppercase tracking-widest text-white drop-shadow-2xl mb-16 text-center"
+                    className="text-4xl md:text-6xl font-bold uppercase tracking-widest text-white drop-shadow-2xl mb-12 md:mb-16 text-center"
                 >
 
                 </motion.h2>
@@ -44,7 +44,7 @@ export default function UpcomingSection() {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.8, delay: 0.2 }}
-                        className="relative aspect-square w-full max-w-md mx-auto"
+                        className="relative aspect-square w-full max-w-[260px] md:max-w-md mx-auto"
                     >
                         <Image
                             src="/images/starving_cover.jpg"
@@ -64,7 +64,7 @@ export default function UpcomingSection() {
                         className="text-center md:text-left space-y-8"
                     >
                         <div>
-                            <h3 className="text-5xl md:text-7xl font-bold text-white mb-4 italic uppercase">
+                            <h3 className="text-4xl md:text-7xl font-bold text-white mb-4 italic uppercase">
                                 starving
                             </h3>
                             <div className="flex items-center gap-3 text-zinc-400 text-lg justify-center md:justify-start">
@@ -73,7 +73,7 @@ export default function UpcomingSection() {
                             </div>
                         </div>
 
-                        <p className="text-zinc-300 text-lg md:text-xl leading-relaxed max-w-sm">
+                        <p className="text-zinc-300 text-lg md:text-xl leading-relaxed max-w-sm mx-auto md:mx-0">
                             Our new single drops February 1st. Pre-save now to be the first to hear it.
                         </p>
 

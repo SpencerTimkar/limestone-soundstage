@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export default function MerchSection() {
     return (
-        <section id="merch" className="relative min-h-[60vh] flex flex-col items-center justify-center py-24 px-6 overflow-hidden">
+        <section id="merch" className="relative min-h-[50vh] md:min-h-[60vh] flex flex-col items-center justify-center py-16 md:py-24 px-6 overflow-hidden">
 
-          
+
             <div className="relative z-10 text-center max-w-4xl mx-auto">
                 <motion.h2
                     initial={{ opacity: 0, y: 30 }}

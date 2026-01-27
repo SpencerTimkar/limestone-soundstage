@@ -78,8 +78,8 @@ export default function Navigation() {
                     <Link href="/" className="pointer-events-auto block transition-all duration-500 group">
                         <div
                             className={`relative transition-all duration-500 origin-center ${scrolled
-                                ? "w-[clamp(110px,18vw,210px)]"
-                                : "w-[clamp(160px,28vw,450px)] translate-y-12"
+                                ? "w-[clamp(105px,20vw,210px)]"
+                                : "w-[clamp(160px,50vw,450px)] translate-y-8 md:translate-y-12"
                                 }`}
                         >
                             <Image

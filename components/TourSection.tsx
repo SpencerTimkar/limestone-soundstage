@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function TourSection() {
     return (
-        <section id="tour" className="py-24 bg-transparent text-white relative">
+        <section id="tour" className="py-16 md:py-24 bg-transparent text-white relative">
             <div className="container mx-auto px-6 max-w-4xl">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}
@@ -32,7 +32,7 @@ export default function TourSection() {
                                 <div className="text-sm text-zinc-500 uppercase tracking-wide">{tour.city}</div>
                             </div>
 
-                           
+
                         </div>
                     ))}
                 </div>

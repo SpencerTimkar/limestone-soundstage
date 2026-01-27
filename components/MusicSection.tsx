@@ -9,7 +9,7 @@ export default function MusicSection() {
     ];
 
     return (
-        <section id="music" className="relative py-24 bg-transparent text-white">
+        <section id="music" className="relative py-16 md:py-24 bg-transparent text-white">
             <div className="relative z-10 container mx-auto px-6">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}

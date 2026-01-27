@@ -114,7 +114,7 @@ function Navigation() {
                             href: "/",
                             className: "pointer-events-auto block transition-all duration-500 group",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: `relative transition-all duration-500 origin-center ${scrolled ? "w-[clamp(110px,18vw,210px)]" : "w-[clamp(160px,28vw,450px)] translate-y-12"}`,
+                                className: `relative transition-all duration-500 origin-center ${scrolled ? "w-[clamp(105px,20vw,210px)]" : "w-[clamp(160px,50vw,450px)] translate-y-8 md:translate-y-12"}`,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     src: "/images/limestone_text_logo.png",
                                     alt: "Limestone Logo",
@@ -383,7 +383,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 ;
 function HeroSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative h-screen w-full overflow-hidden flex items-center justify-center pb-32",
+        className: "relative h-[100dvh] w-full overflow-hidden flex items-center justify-center pb-32",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 z-0",
@@ -459,7 +459,7 @@ function MusicSection() {
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "music",
-        className: "relative py-24 bg-transparent text-white",
+        className: "relative py-16 md:py-24 bg-transparent text-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "relative z-10 container mx-auto px-6",
             children: [
@@ -657,7 +657,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$tourDates$2e$ts__$5b
 function TourSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "tour",
-        className: "py-24 bg-transparent text-white relative",
+        className: "py-16 md:py-24 bg-transparent text-white relative",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container mx-auto px-6 max-w-4xl",
             children: [
@@ -764,7 +764,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$mo
 function AboutSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "about",
-        className: "py-24 bg-transparent text-white",
+        className: "py-16 md:py-24 bg-transparent text-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container mx-auto px-6 max-w-4xl text-center",
             children: [
@@ -800,7 +800,7 @@ function AboutSection() {
                     },
                     className: "prose prose-invert mx-auto",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-xl text-zinc-300 leading-relaxed",
+                        className: "text-lg md:text-xl text-zinc-300 leading-relaxed",
                         children: "Limestone is an alternative-rock band that brings a unique blend of melodic and hard-hitting elements to the genre. Hailing from Lawrence, Kansas, they are known for emotionally charged songwriting, powerful instrumentals, and a sound that balances vulnerability with intensity. Formed in a basement one winter day in 2024, Limestone has generated an undeniable presence in their local music scene. With their upcoming self-titled EP, Limestone, the band is hungry to expand their reach and connect with listeners far beyond their Kansas roots."
                     }, void 0, false, {
                         fileName: "[project]/components/AboutSection.tsx",
@@ -843,7 +843,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 function ContactSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "contact",
-        className: "py-24 bg-transparent text-white relative border-t border-white/10",
+        className: "py-16 md:py-24 bg-transparent text-white relative border-t border-white/10",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container mx-auto px-6 max-w-4xl text-center",
             children: [
@@ -998,7 +998,9 @@ function Footer() {
                     className: "flex gap-6 uppercase tracking-widest text-xs",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "#",
+                            href: "https://www.instagram.com/limestone.music/",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
                             className: "hover:text-white transition-colors",
                             children: "Instagram"
                         }, void 0, false, {
@@ -1007,7 +1009,9 @@ function Footer() {
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "#",
+                            href: "https://open.spotify.com/artist/60Ms8qhGHWJAeZgbOA6Dyq?si=ZoLlYJSpRRuZ7fCmb-fFFQ",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
                             className: "hover:text-white transition-colors",
                             children: "Spotify"
                         }, void 0, false, {
@@ -1016,18 +1020,22 @@ function Footer() {
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "#",
+                            href: "https://music.apple.com/us/artist/limestone/1820102301",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
                             className: "hover:text-white transition-colors",
-                            children: "YouTube"
+                            children: "Apple Music"
                         }, void 0, false, {
                             fileName: "[project]/components/Footer.tsx",
                             lineNumber: 10,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "#",
+                            href: "https://www.youtube.com/@Limestone_music",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
                             className: "hover:text-white transition-colors",
-                            children: "Email"
+                            children: "YouTube"
                         }, void 0, false, {
                             fileName: "[project]/components/Footer.tsx",
                             lineNumber: 11,
@@ -1082,7 +1090,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function MerchSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "merch",
-        className: "relative min-h-[60vh] flex flex-col items-center justify-center py-24 px-6 overflow-hidden",
+        className: "relative min-h-[50vh] md:min-h-[60vh] flex flex-col items-center justify-center py-16 md:py-24 px-6 overflow-hidden",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "relative z-10 text-center max-w-4xl mx-auto",
             children: [
@@ -1214,7 +1222,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 function UpcomingSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "upcoming",
-        className: "relative min-h-[150vh] flex flex-col items-center justify-center py-32 md:py-48 px-6 overflow-hidden ",
+        className: "relative min-h-[100dvh] md:min-h-[150vh] flex flex-col items-center justify-center py-20 md:py-48 px-6 overflow-hidden ",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 z-0",
@@ -1266,7 +1274,7 @@ function UpcomingSection() {
                         transition: {
                             duration: 0.8
                         },
-                        className: "text-4xl md:text-6xl font-bold uppercase tracking-widest text-white drop-shadow-2xl mb-16 text-center"
+                        className: "text-4xl md:text-6xl font-bold uppercase tracking-widest text-white drop-shadow-2xl mb-12 md:mb-16 text-center"
                     }, void 0, false, {
                         fileName: "[project]/components/UpcomingSection.tsx",
                         lineNumber: 30,
@@ -1291,7 +1299,7 @@ function UpcomingSection() {
                                     duration: 0.8,
                                     delay: 0.2
                                 },
-                                className: "relative aspect-square w-full max-w-md mx-auto",
+                                className: "relative aspect-square w-full max-w-[260px] md:max-w-md mx-auto",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     src: "/images/starving_cover.jpg",
                                     alt: "Starving - Single Cover",
@@ -1329,7 +1337,7 @@ function UpcomingSection() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "text-5xl md:text-7xl font-bold text-white mb-4 italic uppercase",
+                                                className: "text-4xl md:text-7xl font-bold text-white mb-4 italic uppercase",
                                                 children: "starving"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/UpcomingSection.tsx",
@@ -1366,7 +1374,7 @@ function UpcomingSection() {
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-zinc-300 text-lg md:text-xl leading-relaxed max-w-sm",
+                                        className: "text-zinc-300 text-lg md:text-xl leading-relaxed max-w-sm mx-auto md:mx-0",
                                         children: "Our new single drops February 1st. Pre-save now to be the first to hear it."
                                     }, void 0, false, {
                                         fileName: "[project]/components/UpcomingSection.tsx",

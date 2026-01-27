@@ -5,7 +5,7 @@ import { Instagram, Youtube, Mail } from "lucide-react";
 
 export default function ContactSection() {
     return (
-        <section id="contact" className="py-24 bg-transparent text-white relative border-t border-white/10">
+        <section id="contact" className="py-16 md:py-24 bg-transparent text-white relative border-t border-white/10">
             <div className="container mx-auto px-6 max-w-4xl text-center">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}
