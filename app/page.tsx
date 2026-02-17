@@ -7,7 +7,7 @@ import AboutSection from "@/components/AboutSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import MerchSection from "@/components/MerchSection";
-import UpcomingSection from "@/components/UpcomingSection";
+import StarvingSection from "@/components/StarvingSection";
 import StarBackground from "@/components/StarBackground";
 
 
@@ -20,7 +20,7 @@ export default function Home() {
       {/* Spacer before Upcoming section */}
       <div className="h-32 md:h-48 bg-black" />
 
-      <UpcomingSection />
+      <StarvingSection />
 
       {/* Unified Bottom Section with Star Background */}
       <div className="relative bg-black overflow-hidden pointer-events-auto">

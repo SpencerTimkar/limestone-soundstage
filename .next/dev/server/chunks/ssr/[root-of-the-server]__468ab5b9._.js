@@ -38,10 +38,6 @@ function Navigation() {
     }, []);
     const navLinks = [
         {
-            name: "Upcoming",
-            href: "#upcoming"
-        },
-        {
             name: "Music",
             href: "#music"
         },
@@ -70,14 +66,14 @@ function Navigation() {
                 className: `absolute inset-0 bg-gradient-to-b from-black via-black/90 to-transparent transition-opacity duration-500 ease-in-out ${scrolled ? "opacity-0" : "opacity-100"}`
             }, void 0, false, {
                 fileName: "[project]/components/Navigation.tsx",
-                lineNumber: 35,
+                lineNumber: 34,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: `absolute inset-0 bg-black/75 backdrop-blur-xl transition-opacity duration-500 ease-in-out ${scrolled ? "opacity-100" : "opacity-0"}`
             }, void 0, false, {
                 fileName: "[project]/components/Navigation.tsx",
-                lineNumber: 41,
+                lineNumber: 40,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -93,19 +89,19 @@ function Navigation() {
                                 children: link.name
                             }, link.name, false, {
                                 fileName: "[project]/components/Navigation.tsx",
-                                lineNumber: 60,
+                                lineNumber: 59,
                                 columnNumber: 25
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.tsx",
-                        lineNumber: 53,
+                        lineNumber: 52,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "hidden lg:block"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.tsx",
-                        lineNumber: 74,
+                        lineNumber: 73,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -124,22 +120,22 @@ function Navigation() {
                                     priority: true
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navigation.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 84,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navigation.tsx",
-                                lineNumber: 79,
+                                lineNumber: 78,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Navigation.tsx",
-                            lineNumber: 78,
+                            lineNumber: 77,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.tsx",
-                        lineNumber: 77,
+                        lineNumber: 76,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -157,12 +153,12 @@ function Navigation() {
                                     size: 24
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navigation.tsx",
-                                    lineNumber: 102,
+                                    lineNumber: 101,
                                     columnNumber: 203
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navigation.tsx",
-                                lineNumber: 102,
+                                lineNumber: 101,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -182,17 +178,17 @@ function Navigation() {
                                         d: "M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navigation.tsx",
-                                        lineNumber: 113,
+                                        lineNumber: 112,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navigation.tsx",
-                                    lineNumber: 104,
+                                    lineNumber: 103,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navigation.tsx",
-                                lineNumber: 103,
+                                lineNumber: 102,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -204,18 +200,18 @@ function Navigation() {
                                     size: 24
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navigation.tsx",
-                                    lineNumber: 116,
+                                    lineNumber: 115,
                                     columnNumber: 201
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navigation.tsx",
-                                lineNumber: 116,
+                                lineNumber: 115,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navigation.tsx",
-                        lineNumber: 98,
+                        lineNumber: 97,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -228,29 +224,29 @@ function Navigation() {
                                 size: 28
                             }, void 0, false, {
                                 fileName: "[project]/components/Navigation.tsx",
-                                lineNumber: 126,
+                                lineNumber: 125,
                                 columnNumber: 35
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                 size: 28
                             }, void 0, false, {
                                 fileName: "[project]/components/Navigation.tsx",
-                                lineNumber: 126,
+                                lineNumber: 125,
                                 columnNumber: 53
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Navigation.tsx",
-                            lineNumber: 121,
+                            lineNumber: 120,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.tsx",
-                        lineNumber: 120,
+                        lineNumber: 119,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Navigation.tsx",
-                lineNumber: 46,
+                lineNumber: 45,
                 columnNumber: 13
             }, this),
             isOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -267,19 +263,19 @@ function Navigation() {
                                 children: link.name
                             }, link.name, false, {
                                 fileName: "[project]/components/Navigation.tsx",
-                                lineNumber: 136,
+                                lineNumber: 135,
                                 columnNumber: 29
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.tsx",
-                        lineNumber: 134,
+                        lineNumber: 133,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "w-12 h-px bg-white/20 mx-auto"
                     }, void 0, false, {
                         fileName: "[project]/components/Navigation.tsx",
-                        lineNumber: 148,
+                        lineNumber: 147,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -294,12 +290,12 @@ function Navigation() {
                                     size: 28
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navigation.tsx",
-                                    lineNumber: 150,
+                                    lineNumber: 149,
                                     columnNumber: 163
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navigation.tsx",
-                                lineNumber: 150,
+                                lineNumber: 149,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -319,17 +315,17 @@ function Navigation() {
                                         d: "M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navigation.tsx",
-                                        lineNumber: 161,
+                                        lineNumber: 160,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navigation.tsx",
-                                    lineNumber: 152,
+                                    lineNumber: 151,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navigation.tsx",
-                                lineNumber: 151,
+                                lineNumber: 150,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -341,30 +337,30 @@ function Navigation() {
                                     size: 28
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navigation.tsx",
-                                    lineNumber: 164,
+                                    lineNumber: 163,
                                     columnNumber: 161
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Navigation.tsx",
-                                lineNumber: 164,
+                                lineNumber: 163,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navigation.tsx",
-                        lineNumber: 149,
+                        lineNumber: 148,
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Navigation.tsx",
-                lineNumber: 133,
+                lineNumber: 132,
                 columnNumber: 17
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Navigation.tsx",
-        lineNumber: 30,
+        lineNumber: 29,
         columnNumber: 9
     }, this);
 }
@@ -443,7 +439,11 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/calendar.js [app-ssr] (ecmascript) <export default as Calendar>");
 "use client";
+;
+;
 ;
 ;
 function MusicSection() {
@@ -459,166 +459,328 @@ function MusicSection() {
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "music",
-        className: "relative py-16 md:py-24 bg-transparent text-white",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "relative z-10 container mx-auto px-6",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
-                    initial: {
-                        opacity: 0,
-                        y: 20
-                    },
-                    whileInView: {
-                        opacity: 1,
-                        y: 0
-                    },
-                    transition: {
-                        duration: 0.6
-                    },
-                    className: "text-4xl font-bold uppercase tracking-widest mb-12 text-center",
-                    children: "Music"
+        className: "relative min-h-screen py-16 md:py-24 bg-transparent text-white overflow-hidden",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 z-0 pointer-events-none",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                    src: "/images/starving necklace.png",
+                    alt: "",
+                    fill: true,
+                    className: "object-cover opacity-30",
+                    priority: true
                 }, void 0, false, {
                     fileName: "[project]/components/MusicSection.tsx",
-                    lineNumber: 14,
+                    lineNumber: 18,
                     columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex justify-center gap-6 mb-12 flex-wrap",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "https://open.spotify.com/artist/60Ms8qhGHWJAeZgbOA6Dyq?si=ZoLlYJSpRRuZ7fCmb-fFFQ",
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            className: "flex items-center gap-2 px-6 py-3 border border-zinc-700/50 rounded-full bg-black/20 hover:bg-zinc-800/50 hover:border-zinc-500 transition-all duration-300 backdrop-blur-sm group",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                    className: "w-5 h-5 text-[#1DB954] group-hover:scale-110 transition-transform",
-                                    viewBox: "0 0 24 24",
-                                    fill: "currentColor",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                        d: "M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/MusicSection.tsx",
-                                        lineNumber: 30,
-                                        columnNumber: 148
-                                    }, this)
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/components/MusicSection.tsx",
+                lineNumber: 17,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute top-0 left-0 right-0 h-40 bg-gradient-to-b from-black to-transparent z-0 pointer-events-none"
+            }, void 0, false, {
+                fileName: "[project]/components/MusicSection.tsx",
+                lineNumber: 28,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-black to-transparent z-0 pointer-events-none"
+            }, void 0, false, {
+                fileName: "[project]/components/MusicSection.tsx",
+                lineNumber: 31,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative z-10 container mx-auto px-6",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
+                        initial: {
+                            opacity: 0,
+                            y: 20
+                        },
+                        whileInView: {
+                            opacity: 1,
+                            y: 0
+                        },
+                        transition: {
+                            duration: 0.6
+                        },
+                        className: "text-4xl font-bold uppercase tracking-widest mb-12 text-center",
+                        children: "Music"
+                    }, void 0, false, {
+                        fileName: "[project]/components/MusicSection.tsx",
+                        lineNumber: 34,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "grid md:grid-cols-2 gap-12 items-center mb-24 max-w-6xl mx-auto",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                                initial: {
+                                    opacity: 0,
+                                    x: -50
+                                },
+                                whileInView: {
+                                    opacity: 1,
+                                    x: 0
+                                },
+                                viewport: {
+                                    once: true
+                                },
+                                transition: {
+                                    duration: 0.8
+                                },
+                                className: "relative aspect-square w-full max-w-[260px] md:max-w-md mx-auto",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    src: "/images/starving_cover.jpg",
+                                    alt: "Starving - Single Cover",
+                                    fill: true,
+                                    className: "object-cover shadow-2xl rounded-xl",
+                                    priority: true
                                 }, void 0, false, {
                                     fileName: "[project]/components/MusicSection.tsx",
-                                    lineNumber: 30,
+                                    lineNumber: 53,
                                     columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-sm tracking-wider font-medium text-zinc-300 group-hover:text-white",
-                                    children: "Spotify"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/MusicSection.tsx",
-                                    lineNumber: 31,
-                                    columnNumber: 25
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/MusicSection.tsx",
-                            lineNumber: 24,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "https://music.apple.com/us/artist/limestone/1820102301",
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            className: "flex items-center gap-2 px-6 py-3 border border-zinc-700/50 rounded-full bg-black/20 hover:bg-zinc-800/50 hover:border-zinc-500 transition-all duration-300 backdrop-blur-sm group",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                    className: "w-5 h-5 text-[#FA243C] group-hover:scale-110 transition-transform",
-                                    viewBox: "0 0 24 24",
-                                    fill: "currentColor",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                            d: "M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm0-1c-3.859 0-7-3.141-7-7s3.141-7 7-7 7 3.141 7 7-3.141 7-7 7z"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/MusicSection.tsx",
-                                            lineNumber: 39,
-                                            columnNumber: 148
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                            d: "M15.54 10.665c-.044-.01-.09-.015-.136-.015-.295 0-.583.125-.79.356-.889.988-1.503 1.144-1.928 1.144-.395 0-1.066-.374-1.685-.644-.523-.228-.999-.436-1.319-.436-.613 0-1.258.333-1.638.748-1.401 1.59-1.096 4.39.467 6.634.618.894 1.344 1.763 2.062 1.763.155 0 .284-.047.382-.083.33-.119.799-.286 1.488-.286.689 0 1.168.172 1.503.295.093.034.212.078.356.078.729 0 1.529-1.03 2.155-1.944.593-.863.858-1.232 1.056-1.596-.02-.01-1.226-.453-1.447-1.748-.201-1.173.69-1.996 1.411-2.459-.289-.785-.92-1.458-1.897-1.807zM13.251 7.15c.571 0 1.056-.201 1.457-.6.416-.411.633-.94.633-1.543 0-.103-.01-.206-.031-.304-.546.041-1.077.294-1.468.706-.391.397-.685.938-.685 1.52 0 .077.005.155.021.232.036.005.051.01.072.01.001-.001-.001-.001.001-.021z"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/MusicSection.tsx",
-                                            lineNumber: 39,
-                                            columnNumber: 357
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/MusicSection.tsx",
-                                    lineNumber: 39,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-sm tracking-wider font-medium text-zinc-300 group-hover:text-white",
-                                    children: "Apple Music"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/MusicSection.tsx",
-                                    lineNumber: 40,
-                                    columnNumber: 25
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/MusicSection.tsx",
-                            lineNumber: 33,
-                            columnNumber: 21
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/components/MusicSection.tsx",
-                    lineNumber: 23,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid md:grid-cols-2 gap-12 max-w-5xl mx-auto",
-                    children: tracks.map((track)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col gap-4",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "w-full rounded-xl bg-purple-950/30 shadow-lg hover:shadow-purple-500/40 transition-all duration-500",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
-                                    style: {
-                                        borderRadius: "12px"
-                                    },
-                                    src: `https://open.spotify.com/embed/track/${track.id}?utm_source=generator&theme=0`,
-                                    width: "100%",
-                                    height: "352",
-                                    frameBorder: "0",
-                                    allowFullScreen: true,
-                                    allow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
-                                    loading: "lazy",
-                                    title: track.title
-                                }, void 0, false, {
-                                    fileName: "[project]/components/MusicSection.tsx",
-                                    lineNumber: 48,
-                                    columnNumber: 33
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/MusicSection.tsx",
-                                lineNumber: 47,
-                                columnNumber: 29
+                                lineNumber: 46,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                                initial: {
+                                    opacity: 0,
+                                    x: 50
+                                },
+                                whileInView: {
+                                    opacity: 1,
+                                    x: 0
+                                },
+                                viewport: {
+                                    once: true
+                                },
+                                transition: {
+                                    duration: 0.8,
+                                    delay: 0.2
+                                },
+                                className: "text-center md:text-left space-y-8",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                className: "text-4xl md:text-7xl font-bold text-white mb-4 italic uppercase",
+                                                children: "starving"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/MusicSection.tsx",
+                                                lineNumber: 71,
+                                                columnNumber: 29
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "flex items-center gap-3 text-zinc-400 text-lg justify-center md:justify-start",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
+                                                        size: 20
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/MusicSection.tsx",
+                                                        lineNumber: 75,
+                                                        columnNumber: 33
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        children: "February 1, 2026"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/MusicSection.tsx",
+                                                        lineNumber: 76,
+                                                        columnNumber: 33
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/MusicSection.tsx",
+                                                lineNumber: 74,
+                                                columnNumber: 29
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/MusicSection.tsx",
+                                        lineNumber: 70,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "w-full rounded-xl bg-black/40 shadow-lg  backdrop-blur-sm",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
+                                            "data-testid": "embed-iframe",
+                                            style: {
+                                                borderRadius: "12px"
+                                            },
+                                            src: "https://open.spotify.com/embed/track/77H2Bx13YzJcnA7mdAVa2G?utm_source=generator",
+                                            width: "100%",
+                                            height: "352",
+                                            frameBorder: "0",
+                                            allowFullScreen: true,
+                                            allow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
+                                            loading: "lazy"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/MusicSection.tsx",
+                                            lineNumber: 81,
+                                            columnNumber: 29
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/MusicSection.tsx",
+                                        lineNumber: 80,
+                                        columnNumber: 25
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/MusicSection.tsx",
+                                lineNumber: 63,
+                                columnNumber: 21
                             }, this)
-                        }, track.title, false, {
-                            fileName: "[project]/components/MusicSection.tsx",
-                            lineNumber: 46,
-                            columnNumber: 25
-                        }, this))
-                }, void 0, false, {
-                    fileName: "[project]/components/MusicSection.tsx",
-                    lineNumber: 44,
-                    columnNumber: 17
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/components/MusicSection.tsx",
-            lineNumber: 13,
-            columnNumber: 13
-        }, this)
-    }, void 0, false, {
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/MusicSection.tsx",
+                        lineNumber: 44,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex justify-center gap-6 mb-12 flex-wrap",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "https://open.spotify.com/artist/60Ms8qhGHWJAeZgbOA6Dyq?si=ZoLlYJSpRRuZ7fCmb-fFFQ",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                className: "flex items-center gap-2 px-6 py-3 border border-zinc-700/50 rounded-full bg-black/20 hover:bg-zinc-800/50 hover:border-zinc-500 transition-all duration-300 backdrop-blur-sm group",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                        className: "w-5 h-5 text-[#1DB954] group-hover:scale-110 transition-transform",
+                                        viewBox: "0 0 24 24",
+                                        fill: "currentColor",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                            d: "M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/MusicSection.tsx",
+                                            lineNumber: 104,
+                                            columnNumber: 148
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/MusicSection.tsx",
+                                        lineNumber: 104,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-sm tracking-wider font-medium text-zinc-300 group-hover:text-white",
+                                        children: "Spotify"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/MusicSection.tsx",
+                                        lineNumber: 105,
+                                        columnNumber: 25
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/MusicSection.tsx",
+                                lineNumber: 98,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "https://music.apple.com/us/artist/limestone/1820102301",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                className: "flex items-center gap-2 px-6 py-3 border border-zinc-700/50 rounded-full bg-black/20 hover:bg-zinc-800/50 hover:border-zinc-500 transition-all duration-300 backdrop-blur-sm group",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                        className: "w-5 h-5 text-[#FA243C] group-hover:scale-110 transition-transform",
+                                        viewBox: "0 0 24 24",
+                                        fill: "currentColor",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                d: "M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm0-1c-3.859 0-7-3.141-7-7s3.141-7 7-7 7 3.141 7 7-3.141 7-7 7z"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/MusicSection.tsx",
+                                                lineNumber: 113,
+                                                columnNumber: 148
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                d: "M15.54 10.665c-.044-.01-.09-.015-.136-.015-.295 0-.583.125-.79.356-.889.988-1.503 1.144-1.928 1.144-.395 0-1.066-.374-1.685-.644-.523-.228-.999-.436-1.319-.436-.613 0-1.258.333-1.638.748-1.401 1.59-1.096 4.39.467 6.634.618.894 1.344 1.763 2.062 1.763.155 0 .284-.047.382-.083.33-.119.799-.286 1.488-.286.689 0 1.168.172 1.503.295.093.034.212.078.356.078.729 0 1.529-1.03 2.155-1.944.593-.863.858-1.232 1.056-1.596-.02-.01-1.226-.453-1.447-1.748-.201-1.173.69-1.996 1.411-2.459-.289-.785-.92-1.458-1.897-1.807zM13.251 7.15c.571 0 1.056-.201 1.457-.6.416-.411.633-.94.633-1.543 0-.103-.01-.206-.031-.304-.546.041-1.077.294-1.468.706-.391.397-.685.938-.685 1.52 0 .077.005.155.021.232.036.005.051.01.072.01.001-.001-.001-.001.001-.021z"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/MusicSection.tsx",
+                                                lineNumber: 113,
+                                                columnNumber: 357
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/MusicSection.tsx",
+                                        lineNumber: 113,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-sm tracking-wider font-medium text-zinc-300 group-hover:text-white",
+                                        children: "Apple Music"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/MusicSection.tsx",
+                                        lineNumber: 114,
+                                        columnNumber: 25
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/MusicSection.tsx",
+                                lineNumber: 107,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/MusicSection.tsx",
+                        lineNumber: 97,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "grid md:grid-cols-2 gap-12 max-w-5xl mx-auto",
+                        children: tracks.map((track)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-col gap-4",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "w-full rounded-xl bg-purple-950/30 shadow-lg hover:shadow-purple-500/40 transition-all duration-500",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
+                                        style: {
+                                            borderRadius: "12px"
+                                        },
+                                        src: `https://open.spotify.com/embed/track/${track.id}?utm_source=generator&theme=0`,
+                                        width: "100%",
+                                        height: "352",
+                                        frameBorder: "0",
+                                        allowFullScreen: true,
+                                        allow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
+                                        loading: "lazy",
+                                        title: track.title
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/MusicSection.tsx",
+                                        lineNumber: 122,
+                                        columnNumber: 33
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/MusicSection.tsx",
+                                    lineNumber: 121,
+                                    columnNumber: 29
+                                }, this)
+                            }, track.title, false, {
+                                fileName: "[project]/components/MusicSection.tsx",
+                                lineNumber: 120,
+                                columnNumber: 25
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/components/MusicSection.tsx",
+                        lineNumber: 118,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/MusicSection.tsx",
+                lineNumber: 33,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/components/MusicSection.tsx",
-        lineNumber: 12,
+        lineNumber: 14,
         columnNumber: 9
     }, this);
 }
@@ -1434,91 +1596,11 @@ __turbopack_context__.s([
     ()=>StarBackground
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/value/use-scroll.mjs [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$spring$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/value/use-spring.mjs [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/value/use-transform.mjs [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$velocity$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/value/use-velocity.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 "use client";
 ;
 ;
-;
-// Helper component for individual ghost layers to keep hooks cleaner
-function GhostLayer({ velocity, index }) {
-    // Lag factor: keep it tight for smear effect
-    const y = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useTransform"])(velocity, (v)=>v * (index * 0.001));
-    // Stretch factor: stretches vertically with speed ("smear" effect)
-    const scaleY = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useTransform"])(velocity, [
-        -1500,
-        0,
-        1500
-    ], [
-        1 + index * 0.015,
-        1,
-        1 + index * 0.015
-    ]);
-    // Squash factor: slightly thins horizontally to preserve apparent mass (optional, but looks better)
-    const scaleX = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useTransform"])(velocity, [
-        -1500,
-        0,
-        1500
-    ], [
-        1 - index * 0.015,
-        1,
-        1 - index * 0.015
-    ]);
-    const maskStyle = {
-        maskImage: 'url(/images/high_res_star_png.png)',
-        WebkitMaskImage: 'url(/images/high_res_star_png.png)',
-        maskSize: 'contain',
-        WebkitMaskSize: 'contain',
-        maskRepeat: 'no-repeat',
-        WebkitMaskRepeat: 'no-repeat',
-        maskPosition: 'center',
-        WebkitMaskPosition: 'center'
-    };
-    // Directional origin: 
-    // If v > 0 (scroll down, content moves up), we want trail below -> origin top (0).
-    // If v < 0 (scroll up, content moves down), we want trail above -> origin bottom (1).
-    const originY = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useTransform"])(velocity, (v)=>v > 0 ? 0 : 1);
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-        className: "absolute inset-0 mix-blend-screen",
-        style: {
-            y,
-            scaleY,
-            scaleX,
-            originY,
-            opacity: 0.6 / index,
-            willChange: "transform, opacity, filter",
-            ...maskStyle
-        },
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-            src: "/images/high_res_star_png.png",
-            alt: "",
-            width: 3840,
-            height: 2160,
-            className: "w-full h-full object-contain",
-            priority: true
-        }, void 0, false, {
-            fileName: "[project]/components/StarBackground.tsx",
-            lineNumber: 49,
-            columnNumber: 13
-        }, this)
-    }, void 0, false, {
-        fileName: "[project]/components/StarBackground.tsx",
-        lineNumber: 36,
-        columnNumber: 9
-    }, this);
-}
 function StarBackground() {
-    const { scrollY } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useScroll"])();
-    const scrollVelocity = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$velocity$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useVelocity"])(scrollY);
-    const smoothVelocity = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$spring$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useSpring"])(scrollVelocity, {
-        damping: 150,
-        stiffness: 200,
-        mass: 2
-    });
     const maskStyle = {
         maskImage: 'url(/images/high_res_star_png.png)',
         WebkitMaskImage: 'url(/images/high_res_star_png.png)',
@@ -1529,69 +1611,49 @@ function StarBackground() {
         maskPosition: 'center',
         WebkitMaskPosition: 'center'
     };
-    // calculate 7 layers
-    const layers = [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-    ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "absolute inset-0 z-0 pointer-events-none opacity-60 mix-blend-lighten overflow-hidden",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "absolute top-1/2 -translate-y-1/2 -left-[95vw] min-w-[270vw] h-auto max-w-none opacity-40 mix-blend-screen animate-warble rotate-355 pointer-events-none",
-            children: [
-                layers.map((i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(GhostLayer, {
-                        velocity: smoothVelocity,
-                        index: i
-                    }, i, false, {
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative w-full h-full",
+                style: {
+                    ...maskStyle
+                },
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        src: "/images/high_res_star_png.png",
+                        alt: "",
+                        width: 3840,
+                        height: 2160,
+                        className: "w-full h-full object-contain",
+                        priority: true
+                    }, void 0, false, {
                         fileName: "[project]/components/StarBackground.tsx",
-                        lineNumber: 93,
+                        lineNumber: 31,
                         columnNumber: 21
-                    }, this)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                    className: "relative w-full h-full",
-                    style: {
-                        ...maskStyle
-                    },
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            src: "/images/high_res_star_png.png",
-                            alt: "",
-                            width: 3840,
-                            height: 2160,
-                            className: "w-full h-full object-contain",
-                            priority: true
-                        }, void 0, false, {
-                            fileName: "[project]/components/StarBackground.tsx",
-                            lineNumber: 104,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "absolute -inset-[50%] w-[200%] h-[200%] bg-noise-harsh opacity-90 animate-noise mix-blend-hard-light pointer-events-none"
-                        }, void 0, false, {
-                            fileName: "[project]/components/StarBackground.tsx",
-                            lineNumber: 113,
-                            columnNumber: 21
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/components/StarBackground.tsx",
-                    lineNumber: 97,
-                    columnNumber: 17
-                }, this)
-            ]
-        }, void 0, true, {
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute -inset-[50%] w-[200%] h-[200%] bg-noise-harsh opacity-90 animate-noise mix-blend-hard-light pointer-events-none"
+                    }, void 0, false, {
+                        fileName: "[project]/components/StarBackground.tsx",
+                        lineNumber: 40,
+                        columnNumber: 21
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/StarBackground.tsx",
+                lineNumber: 24,
+                columnNumber: 17
+            }, this)
+        }, void 0, false, {
             fileName: "[project]/components/StarBackground.tsx",
-            lineNumber: 89,
+            lineNumber: 21,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/StarBackground.tsx",
-        lineNumber: 87,
+        lineNumber: 19,
         columnNumber: 9
     }, this);
 }

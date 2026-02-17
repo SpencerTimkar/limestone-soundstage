@@ -18,7 +18,7 @@ export default function Navigation() {
     }, []);
 
     const navLinks = [
-        { name: "Upcoming", href: "#upcoming" },
+        { name: "Starving", href: "#starving" },
         { name: "Music", href: "#music" },
         { name: "Shows", href: "#tour" },
         { name: "About", href: "#about" },

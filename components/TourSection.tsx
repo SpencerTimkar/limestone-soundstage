@@ -23,16 +23,20 @@ export default function TourSection() {
                             key={tour.id}
                             className="flex flex-col md:flex-row items-center justify-between p-6 bg-black hover:bg-zinc-900 transition-colors gap-4"
                         >
-                            <div className="text-center md:text-left">
-                                <div className="text-xl font-bold text-white">{tour.date}</div>
+                            <div className="text-center md:text-left min-w-[100px]">
+                                <div className="text-xl font-bold text-white uppercase">{tour.date}</div>
+                                {tour.time && <div className="text-sm text-zinc-400 mt-1">{tour.time}</div>}
                             </div>
 
-                            <div className="flex-1 text-center md:text-left md:px-8">
+                            <div className="flex-1 text-center md:text-left md:px-8 space-y-1">
                                 <div className="text-lg font-semibold text-zinc-200">{tour.venue}</div>
-                                <div className="text-sm text-zinc-500 uppercase tracking-wide">{tour.city}</div>
+                                {tour.details && <div className="text-sm text-zinc-400 italic">{tour.details}</div>}
+                                <div className="text-xs text-zinc-500 uppercase tracking-wide">
+                                    {tour.city}
+                                    {tour.age && <span className="mx-2">• {tour.age}</span>}
+                                    {tour.cover && <span className="mx-2">• {tour.cover}</span>}
+                                </div>
                             </div>
-
-
                         </div>
                     ))}
                 </div>
