@@ -9,7 +9,7 @@ export default function HeroSection() {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <Image
-                    src="/images/hero_high_res.jpg"
+                    src="/images/hero_high_res.webp"
                     alt="Limestone Band"
                     fill
                     className="object-cover"

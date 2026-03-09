@@ -1,32 +1,23 @@
-export const tourDates = [
-    {
-        id: 1,
-        date: "FEB 27",
-        venue: "Replay Lounge",
-        city: "Lawrence, KS",
-        details: "w/ The Barefoot Cult and Leila’s Rose",
-        time: "10 PM",
-        age: "21+",
-        cover: "$5",
-        ticketLink: "#",
-    },
-    {
-        id: 2,
-        date: "MAR 1",
-        venue: "The Bottleneck",
-        city: "Lawrence, KS",
-        details: "w/ Newlyweds and Black Box Within",
-        time: "7:00 PM Doors",
-        age: "All Ages",
-        ticketLink: "#",
-    },
+export interface TourDate {
+    id: number;
+    date: string;
+    venue: string;
+    city: string;
+    details?: string;
+    time?: string;
+    age?: string;
+    cover?: string;
+    ticketLink?: string;
+}
+
+export const tourDates: TourDate[] = [
     {
         id: 3,
         date: "MAR 28",
-        venue: "TBD",
+        venue: "ECM 2nd Floor @ KU",
         city: "Lawrence, KS",
         details: "w/ The Barefoot Cult",
-        time: "",
+        time: "8:00 PM",
         ticketLink: "#",
     },
     {

@@ -20,9 +20,9 @@ export const metadata: Metadata = {
   description: "Alternative Rock Band from Lawrence, Kansas.",
   icons: {
 
-    icon: "/images/star_cropped.png",
-    shortcut: "/images/star_cropped.png",
-    apple: "/images/star_cropped.png",
+    icon: "/images/star_cropped.webp",
+    shortcut: "/images/star_cropped.webp",
+    apple: "/images/star_cropped.webp",
   },
 };
 

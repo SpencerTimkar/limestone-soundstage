@@ -2,7 +2,15 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { Menu, X, Instagram, Youtube } from "lucide-react";
+import { Menu, X, Instagram, Youtube, ArrowRight } from "lucide-react";
+
+// ... (inside component)
+
+
+
+// ... (in JSX)
+
+
 import Image from "next/image";
 
 export default function Navigation() {
@@ -18,11 +26,10 @@ export default function Navigation() {
     }, []);
 
     const navLinks = [
-        { name: "Starving", href: "#starving" },
-        { name: "Music", href: "#music" },
+        { name: "Music", href: "#venomous" },
         { name: "Shows", href: "#tour" },
+        { name: "Gallery", href: "/gallery" },
         { name: "About", href: "#about" },
-        { name: "Contact", href: "#contact" },
         { name: "Merch", href: "#merch", external: false },
     ];
 
@@ -83,7 +90,7 @@ export default function Navigation() {
                                 }`}
                         >
                             <Image
-                                src="/images/limestone_text_logo.png"
+                                src="/images/limestone_text_logo.webp"
                                 alt="Limestone Logo"
                                 width={1024}
                                 height={216}

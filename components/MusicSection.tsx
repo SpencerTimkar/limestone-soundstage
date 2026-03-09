@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 export default function MusicSection() {
     const tracks = [
+        { title: "Starving", id: "77H2Bx13YzJcnA7mdAVa2G" },
         { title: "Sedona", id: "0X6zQIdc1MlPBEBlglitHj" },
         { title: "Growing Down", id: "6t6pdFx4NOJYGIR8hSSjTL" },
     ];
@@ -44,7 +45,7 @@ export default function MusicSection() {
                 <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
                     {tracks.map((track) => (
                         <div key={track.title} className="flex flex-col gap-4">
-                            <div className="w-full rounded-xl bg-purple-950/30 shadow-lg hover:shadow-purple-500/40 transition-all duration-500">
+                            <div className="w-full rounded-xl bg-purple-950/30 shadow-lg">
                                 <iframe
                                     style={{ borderRadius: "12px" }}
                                     src={`https://open.spotify.com/embed/track/${track.id}?utm_source=generator&theme=0`}

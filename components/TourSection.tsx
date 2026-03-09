@@ -17,7 +17,7 @@ export default function TourSection() {
                     Upcoming Shows
                 </motion.h2>
 
-                <div className="flex flex-col gap-px bg-white/10 border border-white/10">
+                <div className="flex flex-col gap-px bg-white/10 border border-white/10 opacity-75">
                     {tourDates.map((tour) => (
                         <div
                             key={tour.id}
