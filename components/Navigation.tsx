@@ -26,7 +26,7 @@ export default function Navigation() {
     }, []);
 
     const navLinks = [
-        { name: "Music", href: "#venomous" },
+        { name: "Music", href: "#music" },
         { name: "Shows", href: "#tour" },
         { name: "Gallery", href: "/gallery" },
         { name: "About", href: "#about" },

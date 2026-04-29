@@ -7,7 +7,7 @@ import AboutSection from "@/components/AboutSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import MerchSection from "@/components/MerchSection";
-import VenomousSection from "@/components/VenomousSection"; // Changed from StarvingSection
+
 import StarBackground from "@/components/StarBackground";
 
 
@@ -20,23 +20,21 @@ export default function Home() {
       {/* Spacer before Upcoming section */}
       <div className="h-32 md:h-48 bg-black" />
 
-      <VenomousSection /> {/* Changed from StarvingSection */}
+      <MusicSection />
 
       {/* Unified Bottom Section with Star Background */}
-      <div className="relative bg-black overflow-hidden pointer-events-auto">
+      <div className="relative bg-black overflow-hidden pointer-events-auto ">
         {/* Shared Background Element */}
         <StarBackground />
 
         {/* Sections */}
         <div className="relative z-10">
-          <MusicSection />
           <TourSection />
           <MerchSection />
           <AboutSection />
           <ContactSection />
         </div>
       </div>
-
       <Footer />
     </main>
   );

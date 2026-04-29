@@ -2,7 +2,7 @@
 
 export default function Footer() {
     return (
-        <footer className="py-12 bg-black text-zinc-500 text-sm">
+        <footer className="py-8 bg-black text-zinc-500 text-sm">
             <div className="container mx-auto px-6 flex flex-col items-center gap-6">
                 <div className="flex gap-6 uppercase tracking-widest text-xs">
                     <a href="https://www.instagram.com/limestone.music/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Instagram</a>

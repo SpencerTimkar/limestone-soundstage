@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { Mail, Camera } from 'lucide-react';
 
 const allPhotos: string[] = [
+    "/galleryphotos/1000008945.webp",
     "/galleryphotos/20250302_063102000_iOS.webp",
     "/galleryphotos/20250302_063119000_iOS.webp",
     "/galleryphotos/20250302_063222000_iOS.webp",
@@ -12,9 +13,18 @@ const allPhotos: string[] = [
     "/galleryphotos/903F4C9C-9773-4E27-8AC4-BBD695FBD59E.webp",
     "/galleryphotos/AFDB8C78-D3E8-4ADF-810D-C22449EF2DD8.webp",
     "/galleryphotos/IMG_0879.webp",
+    "/galleryphotos/IMG_1061.webp",
+    "/galleryphotos/IMG_1069.webp",
+    "/galleryphotos/IMG_1070.webp",
+    "/galleryphotos/IMG_1071.webp",
+    "/galleryphotos/IMG_1196.webp",
+    "/galleryphotos/IMG_1197.webp",
+    "/galleryphotos/IMG_1207.webp",
+    "/galleryphotos/IMG_1223.webp",
+    "/galleryphotos/IMG_1265.webp",
+    "/galleryphotos/IMG_1273.webp",
     "/galleryphotos/IMG_1743.webp",
     "/galleryphotos/IMG_2231_v3.webp",
-    "/galleryphotos/IMG_2311_v2.webp",
     "/galleryphotos/IMG_2344.webp",
     "/galleryphotos/IMG_2429.webp",
     "/galleryphotos/IMG_2836.webp",
@@ -28,6 +38,19 @@ const allPhotos: string[] = [
     "/galleryphotos/IMG_2873.webp",
     "/galleryphotos/IMG_2874.webp",
     "/galleryphotos/IMG_2876.webp",
+    "/galleryphotos/IMG_2956.webp",
+    "/galleryphotos/IMG_2959.webp",
+    "/galleryphotos/IMG_2961.webp",
+    "/galleryphotos/IMG_2962.webp",
+    "/galleryphotos/IMG_2964.webp",
+    "/galleryphotos/IMG_2968.webp",
+    "/galleryphotos/IMG_2988.webp",
+    "/galleryphotos/IMG_2994.webp",
+    "/galleryphotos/IMG_3007.webp",
+    "/galleryphotos/IMG_3011.webp",
+    "/galleryphotos/IMG_3025.webp",
+    "/galleryphotos/IMG_3026.webp",
+    "/galleryphotos/IMG_3027.webp",
     "/galleryphotos/IMG_3223.webp",
     "/galleryphotos/IMG_3259.webp",
     "/galleryphotos/IMG_3261.webp",
@@ -103,6 +126,8 @@ const FanGallerySection = () => {
                                     src={photo}
                                     alt={`Fan photo ${index + 1}`}
                                     className="w-full h-auto object-cover"
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                             </div>
                         ))}

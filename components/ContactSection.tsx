@@ -1,11 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Instagram, Youtube, Mail } from "lucide-react";
+import { Instagram, Youtube } from "lucide-react";
 
 export default function ContactSection() {
     return (
-        <section id="contact" className="py-16 md:py-24 bg-transparent text-white relative border-t border-white/10">
+        <section id="contact" className="pt-8 pb-2 md:pt-24 md:pb-8 bg-transparent text-white relative border-t border-white/10">
             <div className="container mx-auto px-6 max-w-4xl text-center">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}

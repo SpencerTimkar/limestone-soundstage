@@ -17,7 +17,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function Footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "py-12 bg-black text-zinc-500 text-sm",
+        className: "py-8 bg-black text-zinc-500 text-sm",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container mx-auto px-6 flex flex-col items-center gap-6",
             children: [
@@ -114,7 +114,7 @@ function StarBackground({ className = "opacity-60", starClassName = "top-1/2 -tr
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: `absolute inset-0 z-0 pointer-events-none mix-blend-lighten overflow-hidden ${className}`,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: `absolute -left-[95vw] min-w-[270vw] h-auto max-w-none opacity-50 mix-blend-screen animate-warble rotate-355 pointer-events-none will-change-transform ${starClassName}`,
+            className: `absolute  -left-[95vw] min-w-[270vw] h-auto max-w-none opacity-50 mix-blend-screen animate-warble rotate-355 pointer-events-none will-change-transform ${starClassName}`,
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "relative w-full h-full",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -162,6 +162,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 ;
 const allPhotos = [
+    "/galleryphotos/1000008945.webp",
     "/galleryphotos/20250302_063102000_iOS.webp",
     "/galleryphotos/20250302_063119000_iOS.webp",
     "/galleryphotos/20250302_063222000_iOS.webp",
@@ -171,9 +172,18 @@ const allPhotos = [
     "/galleryphotos/903F4C9C-9773-4E27-8AC4-BBD695FBD59E.webp",
     "/galleryphotos/AFDB8C78-D3E8-4ADF-810D-C22449EF2DD8.webp",
     "/galleryphotos/IMG_0879.webp",
+    "/galleryphotos/IMG_1061.webp",
+    "/galleryphotos/IMG_1069.webp",
+    "/galleryphotos/IMG_1070.webp",
+    "/galleryphotos/IMG_1071.webp",
+    "/galleryphotos/IMG_1196.webp",
+    "/galleryphotos/IMG_1197.webp",
+    "/galleryphotos/IMG_1207.webp",
+    "/galleryphotos/IMG_1223.webp",
+    "/galleryphotos/IMG_1265.webp",
+    "/galleryphotos/IMG_1273.webp",
     "/galleryphotos/IMG_1743.webp",
     "/galleryphotos/IMG_2231_v3.webp",
-    "/galleryphotos/IMG_2311_v2.webp",
     "/galleryphotos/IMG_2344.webp",
     "/galleryphotos/IMG_2429.webp",
     "/galleryphotos/IMG_2836.webp",
@@ -187,6 +197,19 @@ const allPhotos = [
     "/galleryphotos/IMG_2873.webp",
     "/galleryphotos/IMG_2874.webp",
     "/galleryphotos/IMG_2876.webp",
+    "/galleryphotos/IMG_2956.webp",
+    "/galleryphotos/IMG_2959.webp",
+    "/galleryphotos/IMG_2961.webp",
+    "/galleryphotos/IMG_2962.webp",
+    "/galleryphotos/IMG_2964.webp",
+    "/galleryphotos/IMG_2968.webp",
+    "/galleryphotos/IMG_2988.webp",
+    "/galleryphotos/IMG_2994.webp",
+    "/galleryphotos/IMG_3007.webp",
+    "/galleryphotos/IMG_3011.webp",
+    "/galleryphotos/IMG_3025.webp",
+    "/galleryphotos/IMG_3026.webp",
+    "/galleryphotos/IMG_3027.webp",
     "/galleryphotos/IMG_3223.webp",
     "/galleryphotos/IMG_3259.webp",
     "/galleryphotos/IMG_3261.webp",
@@ -234,7 +257,7 @@ const FanGallerySection = ()=>{
                             children: "Gallery"
                         }, void 0, false, {
                             fileName: "[project]/components/FanGallerySection.tsx",
-                            lineNumber: 70,
+                            lineNumber: 93,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -242,7 +265,7 @@ const FanGallerySection = ()=>{
                             children: "We want to see your faces! Send us photos of you at our shows or rocking Limestone merch to be featured here."
                         }, void 0, false, {
                             fileName: "[project]/components/FanGallerySection.tsx",
-                            lineNumber: 75,
+                            lineNumber: 98,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -254,30 +277,30 @@ const FanGallerySection = ()=>{
                                         className: "w-5 h-5"
                                     }, void 0, false, {
                                         fileName: "[project]/components/FanGallerySection.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 109,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     "Submit a Photo"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/FanGallerySection.tsx",
-                                lineNumber: 82,
+                                lineNumber: 105,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/components/FanGallerySection.tsx",
-                            lineNumber: 81,
+                            lineNumber: 104,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/FanGallerySection.tsx",
-                    lineNumber: 69,
+                    lineNumber: 92,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/components/FanGallerySection.tsx",
-                lineNumber: 68,
+                lineNumber: 91,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -292,17 +315,17 @@ const FanGallerySection = ()=>{
                                 className: "w-full h-auto object-cover"
                             }, void 0, false, {
                                 fileName: "[project]/components/FanGallerySection.tsx",
-                                lineNumber: 102,
+                                lineNumber: 125,
                                 columnNumber: 33
                             }, ("TURBOPACK compile-time value", void 0))
                         }, index, false, {
                             fileName: "[project]/components/FanGallerySection.tsx",
-                            lineNumber: 98,
+                            lineNumber: 121,
                             columnNumber: 29
                         }, ("TURBOPACK compile-time value", void 0)))
                 }, void 0, false, {
                     fileName: "[project]/components/FanGallerySection.tsx",
-                    lineNumber: 96,
+                    lineNumber: 119,
                     columnNumber: 21
                 }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex flex-col items-center justify-center py-20 border border-white/10 rounded-2xl bg-white/5",
@@ -311,7 +334,7 @@ const FanGallerySection = ()=>{
                             className: "w-16 h-16 text-zinc-600 mb-4"
                         }, void 0, false, {
                             fileName: "[project]/components/FanGallerySection.tsx",
-                            lineNumber: 112,
+                            lineNumber: 135,
                             columnNumber: 25
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -319,24 +342,24 @@ const FanGallerySection = ()=>{
                             children: "No photos yet. Be the first to submit!"
                         }, void 0, false, {
                             fileName: "[project]/components/FanGallerySection.tsx",
-                            lineNumber: 113,
+                            lineNumber: 136,
                             columnNumber: 25
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/FanGallerySection.tsx",
-                    lineNumber: 111,
+                    lineNumber: 134,
                     columnNumber: 21
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/components/FanGallerySection.tsx",
-                lineNumber: 94,
+                lineNumber: 117,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/components/FanGallerySection.tsx",
-        lineNumber: 66,
+        lineNumber: 89,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
