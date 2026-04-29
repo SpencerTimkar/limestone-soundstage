@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from 'react';
 import { Mail, Camera } from 'lucide-react';
+import Image from 'next/image';
 
 const allPhotos: string[] = [
     "/galleryphotos/1000008945.webp",
@@ -122,12 +123,13 @@ const FanGallerySection = () => {
                                 key={index}
                                 className="break-inside-avoid relative overflow-hidden rounded-xl"
                             >
-                                <img
+                                <Image
                                     src={photo}
                                     alt={`Fan photo ${index + 1}`}
                                     className="w-full h-auto object-cover"
-                                    loading="lazy"
-                                    decoding="async"
+                                    width={0}
+                                    height={0}
+                                    sizes="(max-width: 768px) 50vw, (max-width: 1024px) 25vw, 20vw"
                                 />
                             </div>
                         ))}

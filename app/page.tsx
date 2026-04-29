@@ -1,14 +1,14 @@
 import Navigation from "@/components/Navigation";
-import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 import MusicSection from "@/components/MusicSection";
-import TourSection from "@/components/TourSection";
-import AboutSection from "@/components/AboutSection";
-import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
-import MerchSection from "@/components/MerchSection";
+import dynamic from "next/dynamic";
 
-import StarBackground from "@/components/StarBackground";
+const TourSection = dynamic(() => import("@/components/TourSection"));
+const MerchSection = dynamic(() => import("@/components/MerchSection"));
+const AboutSection = dynamic(() => import("@/components/AboutSection"));
+const ContactSection = dynamic(() => import("@/components/ContactSection"));
+const StarBackground = dynamic(() => import("@/components/StarBackground"));
 
 
 export default function Home() {
