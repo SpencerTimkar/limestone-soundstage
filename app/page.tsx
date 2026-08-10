@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import MusicSection from "@/components/MusicSection";
 import Footer from "@/components/Footer";
 import dynamic from "next/dynamic";
+import { getTourDates } from "@/lib/getTourDates";
 
 const EPSection = dynamic(() => import("@/components/EPSection"));
 const TourSection = dynamic(() => import("@/components/TourSection"));
@@ -12,7 +13,11 @@ const ContactSection = dynamic(() => import("@/components/ContactSection"));
 const StarBackground = dynamic(() => import("@/components/StarBackground"));
 
 
-export default function Home() {
+export const revalidate = 60;
+
+export default async function Home() {
+  const tourDates = await getTourDates();
+
   return (
     <main className="bg-black min-h-screen">
       <Navigation />
@@ -31,7 +36,7 @@ export default function Home() {
 
         {/* Sections */}
         <div className="relative z-10">
-          <TourSection />
+          <TourSection tourDates={tourDates} />
           <MerchSection />
           <AboutSection />
           <ContactSection />

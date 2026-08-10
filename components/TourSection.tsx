@@ -1,10 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { tourDates } from "../data/tourDates";
-import Link from "next/link";
+import type { TourDate } from "@/data/tourDates";
 
-export default function TourSection() {
+export default function TourSection({ tourDates }: { tourDates: TourDate[] }) {
     return (
         <section id="tour" className="py-16 md:py-24 bg-transparent text-white relative">
             <div className="container mx-auto px-6 max-w-4xl">
@@ -18,6 +17,11 @@ export default function TourSection() {
                 </motion.h2>
 
                 <div className="flex flex-col gap-px bg-white/10 border border-white/10 opacity-75">
+                    {tourDates.length === 0 && (
+                        <div className="p-8 bg-black text-center text-zinc-400">
+                            New shows coming soon.
+                        </div>
+                    )}
                     {tourDates.map((tour) => (
                         <div
                             key={tour.id}
@@ -37,6 +41,17 @@ export default function TourSection() {
                                     {tour.cover && <span className="mx-2">• {tour.cover}</span>}
                                 </div>
                             </div>
+
+                            {tour.ticketLink && (
+                                <a
+                                    href={tour.ticketLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="px-5 py-2 border border-white/30 text-sm font-semibold uppercase tracking-wider hover:bg-white hover:text-black transition-colors"
+                                >
+                                    Tickets
+                                </a>
+                            )}
                         </div>
                     ))}
                 </div>
