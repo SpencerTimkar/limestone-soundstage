@@ -12,12 +12,23 @@ export interface TourDate {
 
 export const tourDates: TourDate[] = [
     {
-        id: 6,
-        date: "MAY 8",
-        venue: "The Bottleneck",
+        id: 1,
+        date: "AUG 29",
+        venue: "9th Street Block Party",
         city: "Lawrence, KS",
-        details: "w/ The Whips + The Barefoot Cult",
-        time: "",
-        ticketLink: "#",
+    },
+    {
+        id: 2,
+        date: "SEP 11",
+        venue: "Pike House",
+        city: "Lawrence, KS",
+        details: "Mizzou Tailgate",
+    },
+    {
+        id: 3,
+        date: "OCT 3",
+        venue: "Westport Bowery",
+        city: "Kansas City, MO",
+        details: "Rapture Presents: Midwest Madness Tour",
     },
 ];

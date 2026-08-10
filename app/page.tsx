@@ -4,6 +4,7 @@ import MusicSection from "@/components/MusicSection";
 import Footer from "@/components/Footer";
 import dynamic from "next/dynamic";
 
+const EPSection = dynamic(() => import("@/components/EPSection"));
 const TourSection = dynamic(() => import("@/components/TourSection"));
 const MerchSection = dynamic(() => import("@/components/MerchSection"));
 const AboutSection = dynamic(() => import("@/components/AboutSection"));
@@ -21,6 +22,7 @@ export default function Home() {
       <div className="h-32 md:h-48 bg-black" />
 
       <MusicSection />
+      <EPSection />
 
       {/* Unified Bottom Section with Star Background */}
       <div className="relative bg-black overflow-hidden pointer-events-auto ">
