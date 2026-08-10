@@ -4,6 +4,29 @@ const DEFAULT_SHOWS_CSV_URL =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vQS3Jm5tXTsvidh1I2NWoy6IoxcVnnNdKqwSL3UDZpD0FeAL1mu5ID5mByt7KzQfqRUViCZe4sdAnPT/pub?gid=2098727735&single=true&output=csv";
 
 const SHOWS_CSV_URL = process.env.SHOWS_CSV_URL ?? DEFAULT_SHOWS_CSV_URL;
+const SHOWS_TIME_ZONE = process.env.SHOWS_TIME_ZONE ?? "America/Chicago";
+
+function dateInTimeZone(date: Date, timeZone: string): string {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(date);
+
+  const part = (type: Intl.DateTimeFormatPartTypes) =>
+    parts.find((value) => value.type === type)?.value ?? "";
+
+  return `${part("year")}-${part("month")}-${part("day")}`;
+}
+
+function removePastShows(tourDates: TourDate[]): TourDate[] {
+  const today = dateInTimeZone(new Date(), SHOWS_TIME_ZONE);
+
+  return tourDates.filter(
+    (show) => /^\d{4}-\d{2}-\d{2}$/.test(show.sortDate) && show.sortDate >= today,
+  );
+}
 
 function parseCsv(csv: string): string[][] {
   const rows: string[][] = [];
@@ -86,9 +109,9 @@ export async function getTourDates(): Promise<TourDate[]> {
       throw new Error(`Google Sheets returned ${response.status}.`);
     }
 
-    return csvToTourDates(await response.text());
+    return removePastShows(csvToTourDates(await response.text()));
   } catch (error) {
     console.error("Unable to load shows from Google Sheets; using local fallback.", error);
-    return fallbackTourDates;
+    return removePastShows(fallbackTourDates);
   }
 }
