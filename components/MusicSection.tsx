@@ -30,7 +30,6 @@ export default function MusicSection() {
                     alt="Grace Background"
                     fill
                     className="object-cover opacity-60"
-                    priority
                 />
             </div>
 

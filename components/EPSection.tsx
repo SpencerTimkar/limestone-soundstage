@@ -39,7 +39,6 @@ export default function EPSection() {
                     alt="Limestone Soundstage Background"
                     fill
                     className="object-cover opacity-60"
-                    priority
                 />
             </div>
 
@@ -64,7 +63,6 @@ export default function EPSection() {
                             alt="Limestone EP Cover"
                             fill
                             className="object-cover"
-                            priority
                         />
                     </div>
                     
