@@ -13,27 +13,4 @@ export interface TourDate {
 }
 
 export const tourDates: TourDate[] = [
-    {
-        id: 1,
-        sortDate: "2026-08-29",
-        date: "AUG 29",
-        venue: "9th Street Block Party",
-        city: "Lawrence, KS",
-    },
-    {
-        id: 2,
-        sortDate: "2026-09-11",
-        date: "SEP 11",
-        venue: "Pike House",
-        city: "Lawrence, KS",
-        details: "Mizzou Tailgate",
-    },
-    {
-        id: 3,
-        sortDate: "2026-10-03",
-        date: "OCT 3",
-        venue: "Westport Bowery",
-        city: "Kansas City, MO",
-        details: "Rapture Presents: Midwest Madness Tour",
-    },
 ];
